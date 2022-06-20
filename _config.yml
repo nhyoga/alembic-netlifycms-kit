@@ -19,6 +19,7 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
+- jekyll-remote-theme
 
 # Site settings
 url: 'https://mydomain.com'
@@ -26,7 +27,8 @@ baseurl: ''
 title: 'My website'
 description: 'This is my new website'
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: '/assets/images/logo-sitting-96x97.png'
+google_analytics: true
 
 # Pagination
 paginate: 5
@@ -38,6 +40,10 @@ navigation_header:
   url: /
 - title: About
   url: /about/
+- title: the classes
+  url: /classes/
+- title: location
+  url: /yoga-in-shoreham/ 
 - title: Blog
   url: /blog/
 

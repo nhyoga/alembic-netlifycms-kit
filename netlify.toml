@@ -3,4 +3,4 @@
   publish = "_site"
 
 [build.environment]
-  JEKYLL_ENV = "production"
+  JEKYLL_ENV = "local"
