@@ -87,7 +87,7 @@ defaults:
       layout: testimonial # Set the default layout for testimonials
   -
     scope:
-      path: ""
+      path: "assets/images"
       type: "pages"
     values:
       layout: page # Set the default layout for pages

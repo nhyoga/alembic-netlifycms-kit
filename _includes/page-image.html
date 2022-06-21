@@ -1,0 +1,12 @@
+
+{% assign page_image = page.page_image %}
+{% if page.collectionpage %}
+  {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+
+  {% assign page_image = collectiondata.page_image %}
+{% endif %}
+
+{% if page_image %}
+  <img src="url({{ page_image }})">
+  
+{% endif %}
