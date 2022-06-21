@@ -39,7 +39,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Meta image", name: "image", widget: "image", required: false}
       - {label: "SEO title", name: "seotitle", widget: "string" required: false}
       - {label: "SEO description", name: "seodescription", widget: "text" required: false}
- - name: "testimonials" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "testimonials" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Testimonials" # Used in the UI, ie
     label_singular: "Testimonial" # Used in the UI, ie.: "New Post"
     folder: "/_testimonials" # The path to the folder where the documents are stored
