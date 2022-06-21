@@ -4,8 +4,9 @@ title: About Nicola
 page_image: /assets/uploads/nicola-harman-side-portrait-536x536.jpg
 seotitle: About Nicola | Nicola Harman Yoga classes in Brighton
 ---
+In 2001 Nicola was introduced to yoga and from her first class she knew it was what had been missing from her life. 
 
-In 2001 Nicola was introduced to yoga and from her first class she knew it was what had been missing from her life. Practicing regularly she soon began to see the benefits not just physically but emotional mentally and spiritually. Yoga had such a profound effect on her in 2004 Nicola gave up her business to go abroad and train as a yoga teacher.
+Practicing regularly she soon began to see the benefits not just physically but emotional mentally and spiritually. Yoga had such a profound effect on her in 2004 Nicola gave up her business to go abroad and train as a yoga teacher.
 
 She ran her own busy yoga studio in Hove for 12 years only recently selling up in order to focus on what she is most passionate about: teaching yoga.
 
@@ -15,4 +16,4 @@ Nicola’s passion for yoga comes across in her teaching her classes are challen
 
 Yoga for Nicola is a way of life it has helped her create a more balanced life. It has also aided the healing of her injuries from her sporting days.
 
-Yoga is for everyone you don’t have to be flexible to practice yoga. Nicola’s classes are for all levels of ability from the complete beginner to the more experienced student. Nicola has a love of the outdoors and when she is not teaching or practicing yoga she is walking her dogs in nature. 
+Yoga is for everyone you don’t have to be flexible to practice yoga. Nicola’s classes are for all levels of ability from the complete beginner to the more experienced student. Nicola has a love of the outdoors and when she is not teaching or practicing yoga she is walking her dogs in nature.
