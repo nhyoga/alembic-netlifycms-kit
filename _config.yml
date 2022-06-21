@@ -46,6 +46,8 @@ navigation_header:
   url: /yoga-in-shoreham/ 
 - title: Blog
   url: /blog/
+- title: Testimonials
+  url: /testimonials/  
 
 # Footer nav
 navigation_footer:
@@ -61,6 +63,13 @@ collections:
     feature_text: |
       Welcome to my blog
     feature_image: "https://picsum.photos/2560/600?image=866"
+  testimonials:
+    title: Testimonials
+    output: true
+    description: "Quotes from classes"
+    feature_text: |
+      What clients say
+    feature_image: "https://picsum.photos/2560/600?image=866"
 
 # Collection settings
 defaults:
@@ -70,6 +79,12 @@ defaults:
       type: "posts"
     values:
       layout: post # Set the default layout for posts
+  -
+    scope:
+      path: ""
+      type: "testimonials"
+    values:
+      layout: testimonial # Set the default layout for testimonials
   -
     scope:
       path: ""
