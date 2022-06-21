@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Nicola
-feature_image: /assets/uploads/nicola-harman-side-portrait-536x536.jpg
+page_image: /assets/uploads/nicola-harman-side-portrait-536x536.jpg
 seotitle: About Nicola | Nicola Harman Yoga classes in Brighton
 ---
 
