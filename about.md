@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Nicola
-page_image: /assets/uploads/nicola-harman-side-portrait-536x536.jpg
+page_image: /assets/images/nicola-harman-side-portrait-536x536.jpg
 seotitle: About Nicola | Nicola Harman Yoga classes in Brighton and Shoreham
 seodescription: If you are serious about recovery from injury and developing
   strength and health for your lifetime look no further than Nicola Harman. With
