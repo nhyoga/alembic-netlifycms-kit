@@ -1,0 +1,11 @@
+- label: "Class times"
+  name: "times"
+  widget: "list"
+  required: false
+  fields:
+      - {label: "Day of week", name: "day", widget: "text"}
+      - label: "Start time",  name: "start",  widget: "datetime",  default: "",
+        date_format: "DD.MM.YYYY", # e.g. 24.12.2021
+  time_format: "HH:mm", # e.g. 21:07
+  format: "LLL",
+  picker_utc: false}

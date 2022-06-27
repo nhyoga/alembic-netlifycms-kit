@@ -9,14 +9,6 @@ seodescription: If you are serious about recovery from injury and developing
   20 years of experience you too can benefit first hand in healing and
   wellbeing. Take a class in Shoreham and find out.
 ---
-* Increases mobility, flexibility, strength and stamina
-* Improves breathing and concentration
-* Strengthens the immune system
-* Creates physical and emotional well being
-* Promotes clarity and calmness of the mind
-* Reduces stress/tension and pain
-* Helps aid recovery from minor injuries
-
 These are general classes and therefore suitable for beginners as well as
 those with a more established regular practice.
 

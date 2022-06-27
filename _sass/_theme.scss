@@ -6,8 +6,24 @@ body {
   display: flex;
   @include flex-direction(column);
   overflow-x: hidden;
+  font-family: "Georgia serif";
+  font-size:18px;
+}
+p{
+  // font-family: "Georgia serif";
+  font-size:18px;
+  color: $bodyColour;
 }
 
+header a{
+  color:$white;
+  padding:5px 0;
+}
+header li.item--current a{
+  color:$white;
+  border-bottom: 1px solid rgb(0, 187, 255);
+  
+}
 .container {
   width: 90%;
   max-width: 1200px;

@@ -36,16 +36,12 @@ paginate_path: blog/page:num
 
 # Header nav
 navigation_header:
-- title: Home
-  url: /
 - title: About
   url: /about/
 - title: the classes
   url: /classes/
 - title: location
   url: /yoga-in-shoreham/ 
-- title: Blog
-  url: /blog/
 - title: Testimonials
   url: /testimonials/  
 
