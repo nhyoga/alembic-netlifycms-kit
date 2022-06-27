@@ -53,7 +53,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "SEO title", name: "seotitle", widget: "string", required: false}
       - {label: "SEO description", name: "seodescription", widget: "text", required: false}
   - times: "times"  
-   label: "Class times" 
-    label_singular: "Class time" 
-    file: "/data/classtimes.yml" 
-    create: true # Allow users to create new documents in this collection  
+    label: "Class times" 
+    file: "/_data/classtimes.yml" 
+    create: true # Allow users to create new documents in this collection 
+    fields: 
+      -  {label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: false}
