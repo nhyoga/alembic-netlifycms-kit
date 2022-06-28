@@ -56,10 +56,10 @@ collections: # A list of collections the CMS should be able to edit
   - name: "times"  
     label: "Class times" 
     create: true # Allow users to create new documents in this collection
-    widget: "list"
     files:
       - label: "CTimes"
         name: "time"
+        widget: "list"
         file: "/_data/classtimes.yml" 
         fields: 
           - label: "Day"
