@@ -78,6 +78,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - name: day
             label: times
+            widget: list 
             fields:       
               - {label: "Day", name: "day", widget: "string"}
               - {label: "Start", name: "start", widget: "string"}
