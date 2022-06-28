@@ -75,7 +75,7 @@ collections: # A list of collections the CMS should be able to edit
             name: "finish"
           - label: "Format"
             widget: "string"
-            name: "finish"
+            name: "format"
           - label: "Venue"
             widget: "string"
             name: "venue"                        
