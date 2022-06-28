@@ -1,7 +1,9 @@
 times:
-  - time:
+  - time: null
     day: Saturday
-    start: 9.00
-    finish: 10.30
+    start: 9
+    finish: 10.3
     format: in person
     venue: Shoreham Community Centre
+Day: sat
+start: "9.00"
