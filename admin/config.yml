@@ -75,13 +75,10 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Session time"
         name: "day"
         file: "/_data/sessiontimes.yml"
-        fields:
-          - name: day
-            label: times
-            widget: list 
-            fields:       
-              - {label: "Day", name: "day", widget: "string"}
-              - {label: "Start", name: "start", widget: "string"}
-              - {label: "Finish", name: "finish", widget: "string"}
-              - {label: "Format", name: "format", widget: "string"}
-              - {label: "Venue", name: "venue", widget: "string"} 
+        widget: list 
+        fields:       
+          - {label: "Day", name: "day", widget: "string"}
+          - {label: "Start", name: "start", widget: "string"}
+          - {label: "Finish", name: "finish", widget: "string"}
+          - {label: "Format", name: "format", widget: "string"}
+          - {label: "Venue", name: "venue", widget: "string"} 
