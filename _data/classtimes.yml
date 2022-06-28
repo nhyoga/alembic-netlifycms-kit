@@ -1,12 +1,6 @@
-- label: "Class times"
-  name: "times"
-  widget: "list"
-  required: false
-  fields:
-      - label: "Start time"  
-        name: "start"  
-        widget: "datetime"
-        default: ""
-        date_format: "DD.MM.YYYY", time_format: "HH:mm"
-        format: "LLL",
-        picker_utc: false
+times:
+  - day: Saturday
+    start: 9.00
+    finish: 10.30
+    format: in person
+    venue: Shoreham Community Centre
