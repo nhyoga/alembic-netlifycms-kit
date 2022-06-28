@@ -39,7 +39,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Meta image", name: "image", widget: "image", required: false}
       - {label: "SEO title", name: "seotitle", widget: "string", required: false}
       - {label: "SEO description", name: "seodescription", widget: "text", required: false}
-  
   - name: "testimonials" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Testimonials" # Used in the UI, ie
     label_singular: "Testimonial" # Used in the UI, ie.: "New Post"
@@ -48,10 +47,9 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "ttitle", widget: "string", tagname: "h1"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Page image", name: "page_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "SEO title", name: "seotitle", widget: "string", required: false}
       - {label: "SEO description", name: "seodescription", widget: "text", required: false}
-  
-                    
+      
