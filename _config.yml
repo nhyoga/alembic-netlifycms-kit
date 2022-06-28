@@ -50,17 +50,6 @@ navigation_footer:
 - title: Back to top
   url: "#top"
 
- - label: FAQS
-        name: faqs
-        widget: list
-        fields: 
-          - label: FAQ
-            name: faq
-            widget: object
-            fields:
-              - { label: Question, name: question, widget: string, default: "Question" }
-              - { label: Answer, name: answer, widget: string, default: "Answer" }
-
 # Collections
 collections:
   posts:

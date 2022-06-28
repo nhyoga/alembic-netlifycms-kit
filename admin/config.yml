@@ -52,10 +52,13 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "SEO title", name: "seotitle", widget: "string", required: false}
       - {label: "SEO description", name: "seodescription", widget: "text", required: false}
-  - times: "times"  
-    label: "Class times" 
-    file: "/_data/classtimes.yml" 
-    create: true # Allow users to create new documents in this collection 
-    fields: 
-      - {label: "Day", name: "Day", widget: "text", default: ""}
-      - {label: "Start", name: "Start", widget: "text", default: ""}
+  - label: FAQS
+      name: faqs
+      widget: list
+      fields: 
+        - label: FAQ
+          name: faq
+          widget: object
+          fields:
+            - { label: Question, name: question, widget: string, default: "Question" }
+            - { label: Answer, name: answer, widget: string, default: "Answer" }
