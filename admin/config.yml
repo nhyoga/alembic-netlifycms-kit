@@ -54,22 +54,13 @@ collections: # A list of collections the CMS should be able to edit
   - name: "classtimes"
     label: "Class times"
     folder: "/_data"
-    file: "/_data/classtimes.yml"
+    widget: "object"
     create: true # Allow users to create new documents in this collection
-    widget: "list"
-    fields:
+    files: 
+      file: "/_data/classtimes.yml"
+      fields:
       - {label: "Day", name: "Day", widget: "string"}
       - {label: "Start", name: "start", widget: "string"}
       - {label: "Finish", name: "finish", widget: "string"}
       - {label: "Format", name: "format", widget: "string"}
       - {label: "Venue", name: "venue", widget: "string"} 
-  - name: "venues"
-    label: "Venues"
-    folder: "/_data"
-    file: "/_data/venues.yml"
-    create: true # Allow users to create new documents in this collection
-    widget: "list"
-    fields:
-      - {label: "Venue name", name: "venue", widget: "string"}
-      - {label: "Address", name: "address", widget: "string"}
-      - {label: "Postcode", name: "postcode", widget: "string"}     
