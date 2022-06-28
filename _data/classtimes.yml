@@ -1,9 +1,11 @@
-times:
-  - time: null
-    day: Saturday
-    start: 9
-    finish: 10.3
-    format: in person
-    venue: Shoreham Community Centre
-Day: saturday
-start: 9.00am
+- day: Saturday
+  start: 9
+  finish: 10.3
+  format: in person
+  venue: Shoreham Community Centre
+
+- day: Wedneday
+  start: 7pm
+  finish: 9.30pm
+  format: in person
+  venue: Shoreham Community Centre 
