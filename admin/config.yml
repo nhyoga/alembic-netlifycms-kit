@@ -52,3 +52,17 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "SEO title", name: "seotitle", widget: "string", required: false}
       - {label: "SEO description", name: "seodescription", widget: "text", required: false}
+  
+  - name: "times"  
+    label: "Class times" 
+    files:
+      - label: "Times"
+        name: "time"
+        file: "/_data/classtimes.yml" 
+        fields: 
+          - label: "Day"
+            name: "Day"
+            widget: "string"
+          - label: "Start time"
+            name: "start"
+            widget: "string"
