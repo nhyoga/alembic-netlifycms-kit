@@ -1,3 +1,7 @@
 - venue: Shoreham Community Centre
-  address: "2 Pond Rd, Shoreham-by-Sea" 
+  address: 2 Pond Rd Shoreham-by-Sea
+  postcode: BN43 5WU
+
+- venue: Another Community Centre
+  address: 2 Pond Rd Shoreham-by-Sea
   postcode: BN43 5WU
