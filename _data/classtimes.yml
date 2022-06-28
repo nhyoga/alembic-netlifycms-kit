@@ -1,5 +1,6 @@
 times:
-  - day: Saturday
+  - time:
+    day: Saturday
     start: 9.00
     finish: 10.30
     format: in person
