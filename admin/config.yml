@@ -51,7 +51,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "SEO title", name: "seotitle", widget: "string", required: false}
       - {label: "SEO description", name: "seodescription", widget: "text", required: false}
-  - name: "times"
+  - name: "classtimes"
     label: "Class times"
     folder: "/_data"
     file: "/_data/classtimes.yml"
