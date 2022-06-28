@@ -56,7 +56,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "times"  
     label: "Class times" 
     files:
-      - label: "Times"
+      - label: "CTimes"
         name: "time"
         file: "/_data/classtimes.yml" 
         fields: 
