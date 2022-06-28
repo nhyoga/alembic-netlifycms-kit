@@ -1,5 +1,5 @@
 ---
-venue: venue
-address: 49 dne vale
-postcode: BN15ed
+venue: Alan Sparkes
+address: 49 Dene Vale
+postcode: BN15ED
 ---
