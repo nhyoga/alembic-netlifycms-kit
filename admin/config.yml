@@ -72,5 +72,4 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Name", name: "venue", widget: "string"}
       - {label: "Address", name: "address", widget: "string"}
-      - {label: "Postcode", name: "postcode", widget: "string"}
-      - {label: "Map", name: "map", widget: "map"}       
+      - {label: "Postcode", name: "postcode", widget: "string"}     
