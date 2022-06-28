@@ -57,7 +57,6 @@ collections: # A list of collections the CMS should be able to edit
   - name: "times"  
     label: "Class times" 
     create: true # Allow users to create new documents in this collection
-    widget: "object"
     files:
       - label: "CTimes"
         name: "time"
@@ -69,4 +68,12 @@ collections: # A list of collections the CMS should be able to edit
           - label: "Start time"
             name: "starttime"
             widget: "string"
-                       
+          - label: "Finish"
+            widget: "string"
+            name: "finishtime"
+          - label: "Format"
+            widget: "string"
+            name: "format"
+          - label: "Venue"
+            widget: "string"
+            name: "venue"                        
