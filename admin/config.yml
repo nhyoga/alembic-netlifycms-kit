@@ -71,9 +71,9 @@ collections: # A list of collections the CMS should be able to edit
   - name: "sessiontimes"
     label: "Session times"
     create: true # Allow users to create new documents in this collection
+    file: "/_data/sessiontimes.yml"
       - label: "Session time"
         name: "day"
-        file: "/_data/sessiontimes.yml"
         fields:      
           - {label: "Day", name: "day", widget: "string"}
           - {label: "Start", name: "start", widget: "string"}
