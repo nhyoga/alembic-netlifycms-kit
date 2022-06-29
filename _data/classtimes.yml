@@ -4,6 +4,11 @@ classtime:
     finish: 1.00pm
     format: face
     venue: Shoreham
+  - day: Tuesday
+    start: "800"
+    finish: "@00"
+    format: face
+    venue: Sheangrila
 footime:
   - day: Fridfay
     start: "1200"
