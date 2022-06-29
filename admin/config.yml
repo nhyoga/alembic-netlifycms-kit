@@ -54,7 +54,6 @@ collections: # A list of collections the CMS should be able to edit
   - name: "classtimes"
     label: "Class times"
     create: true # Allow users to create new documents in this collection
-    widget: list 
     files:
       - label: "Class time"
         name: "classtimes"
