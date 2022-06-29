@@ -1,6 +1,11 @@
 classtime:
   - day: Saturday
-    start: "1200"
-    finish: "100"
+    start: 12.00pm
+    finish: 1.00pm
     format: face
     venue: Shoreham
+  - day: Tuesday
+    start: "800"
+    finish: "@00"
+    format: face
+    venue: Sheangrila
