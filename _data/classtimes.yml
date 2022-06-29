@@ -1,16 +1,6 @@
 classtime:
   - day: Saturday
-    start: 9
-    finish: 10
-    format: in person
-    venue: Shoreham Community Centre
-  - day: Wedneday
-    start: 7pm
-    finish: 930pm
-    format: in person
-    venue: Shoreham Community Centre
-  - day: MONDAY
-    start: 600PM
-    finish: 700PM
-    format: FACE
-    venue: BRIGHTON
+    start: "1200"
+    finish: "100"
+    format: face
+    venue: Shoreham
