@@ -9,9 +9,3 @@ classtime:
     finish: "@00"
     format: face
     venue: Sheangrila
-footime:
-  - day: Fridfay
-    start: "1200"
-    finish: "13.00"
-    format: face
-    venue: Watford
