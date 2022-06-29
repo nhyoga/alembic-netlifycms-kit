@@ -14,3 +14,9 @@ time:
     finish: 7.00PM
     format: FACE
     venue: BRIGHTON
+day:
+  - day: day
+    start: start
+    finish: fin
+    format: format
+    venue: vemnue
