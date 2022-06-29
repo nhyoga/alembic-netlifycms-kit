@@ -4,3 +4,9 @@ classtime:
     finish: "100"
     format: face
     venue: Shoreham
+footime:
+  - day: Fridfay
+    start: "1200"
+    finish: "13.00"
+    format: face
+    venue: Watford
