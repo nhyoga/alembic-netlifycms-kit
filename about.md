@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Nicola
+seotitle: girl does yoga
 page_image: /assets/images/nicola-harman-side-portrait-536x536.jpg
 seotitle: About Nicola | Nicola Harman Yoga classes in Brighton and Shoreham
 seodescription: If you are serious about recovery from injury and developing

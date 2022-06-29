@@ -37,7 +37,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Page image", name: "page_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Meta image", name: "image", widget: "image", required: false}
-      - {label: "SEO title", name: "seotitle", widget: "string", required: false}
+      - {label: "SEO title", name: "seotitle", widget: "string", required: false, preview: false}
       - {label: "SEO description", name: "seodescription", widget: "text", required: false, preview: false}
   - name: "testimonials" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Testimonials" # Used in the UI, ie

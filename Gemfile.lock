@@ -119,6 +119,7 @@ DEPENDENCIES
   alembic-jekyll-theme (~> 4.1)
   jekyll (~> 4.1)
   jekyll-remote-theme
+  jekyll-seo-tag
   webrick (~> 1.7)
 
 BUNDLED WITH
