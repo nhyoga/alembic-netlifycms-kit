@@ -1,15 +1,16 @@
-- day: Saturday
-  start: 9
-  finish: 10.3
-  format: in person
-  venue: Shoreham Community Centre
-- day: Wedneday
-  start: 7pm
-  finish: 9.30pm
-  format: in person
-  venue: Shoreham Community Centre
-- day: MONDAY
-  start: 6.00PM
-  finish: 7.00PM
-  format: FACE
-  venue: BRIGHTON
+day:
+  - day: Saturday
+    start: 9
+    finish: 10.3
+    format: in person
+    venue: Shoreham Community Centre
+  - day: Wedneday
+    start: 7pm
+    finish: 9.30pm
+    format: in person
+    venue: Shoreham Community Centre
+  - day: MONDAY
+    start: 6.00PM
+    finish: 7.00PM
+    format: FACE
+    venue: BRIGHTON
