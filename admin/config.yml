@@ -59,8 +59,6 @@ collections: # A list of collections the CMS should be able to edit
         name: "classtimes"
         file: "/_data/classtimes.yml"
         fields:
-          - name: time
-            label: time
             fields:       
               - {label: "Day", name: "day", widget: "string"}
               - {label: "Start", name: "start", widget: "string"}
