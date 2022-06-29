@@ -1,16 +1,16 @@
-day:
+time:
   - day: Saturday
     start: 9
-    finish: 10.3
+    finish: 10
     format: in person
     venue: Shoreham Community Centre
   - day: Wedneday
     start: 7pm
-    finish: 9.30pm
+    finish: 930pm
     format: in person
     venue: Shoreham Community Centre
   - day: MONDAY
-    start: 6.00PM
-    finish: 7.00PM
+    start: 600PM
+    finish: 700PM
     format: FACE
     venue: BRIGHTON
