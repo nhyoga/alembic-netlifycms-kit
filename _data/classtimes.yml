@@ -14,3 +14,9 @@ footime:
     finish: 700PM
     format: FACE
     venue: BRIGHTON
+classtimes:
+  - day: Saturday
+    start: "900"
+    finish: "100"
+    format: face
+    venue: Shoreham
