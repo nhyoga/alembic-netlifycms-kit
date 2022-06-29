@@ -59,7 +59,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "classtimes"
         file: "/_data/classtimes.yml"
         fields:
-          - name: classtimes
+          - name: footime
             label: time
             widget: list 
             fields:       
