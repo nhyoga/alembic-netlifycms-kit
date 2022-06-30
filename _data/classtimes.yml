@@ -4,8 +4,10 @@ classtime:
     finish: 1.00pm
     format: face
     venue: Shoreham
+    locations: Shoreham Community Centre
   - day: Tuesday
-    start: "800"
-    finish: "@00"
+    start: 6.00pm
+    finish: 7.00pm
     format: face
     venue: Sheangrila
+    locations: Shoreham Community Centre
