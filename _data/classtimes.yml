@@ -1,13 +1,18 @@
 classtime:
-  - day: Saturday
-    start: 12.00pm
-    finish: 1.00pm
-    format: face
-    venue: Shoreham
-    locations: Shoreham Community Centre
   - day: Tuesday
     start: 6.00pm
     finish: 7.00pm
-    format: face
+    format: Face to face
     venue: Sheangrila
+    locations: Shoreham Community Centre
+  - day: Thursday
+    start: 12.30pm
+    finish: 1.30pm
+    format: Face to face
+    locations: Shoreham Community Centre
+  - day: Saturday
+    start: 10.00am
+    finish: 11.00am
+    format: Face to face
+    venue: Shoreham
     locations: Shoreham Community Centre
