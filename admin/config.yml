@@ -85,8 +85,9 @@ collections: # A list of collections the CMS should be able to edit
                 widget: "relation"
                 collection: "venues"
                 file: "venues"
-                search_fields: ["locations.venue", "venue"] 
-                value_field: "locations.venue"
+                search_fields: ["locations.*.venue"] 
+                display_fields: ["locations.*.venue"] 
+                value_field: "locations.*.venue"
   - name: "venues"
     label: "Venues"
     create: true # Allow users to create new documents in this collection
