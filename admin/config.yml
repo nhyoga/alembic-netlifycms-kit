@@ -65,7 +65,14 @@ collections: # A list of collections the CMS should be able to edit
             widget: list 
             fields:       
               - {label: "Day", name: "day", widget: "string"}
-              - {label: "Start", name: "start", widget: "string"}
+              - label: "Start time"
+                name: "start"
+                widget: "datetime"
+                default: ""
+                date_format: "DD.MM.YYYY" # e.g. 24.12.2021
+                time_format: "HH:mm" # e.g. 21:07
+                format: "LLL"
+                picker_utc: false
               - {label: "Finish", name: "finish", widget: "string"}
               - {label: "Format", name: "format", widget: "string"}
               - {label: "Venue", name: "venue", widget: "string"} 
