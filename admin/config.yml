@@ -89,7 +89,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "_data"
     files:
       - label: "Venues"
-        name: "venue"
+        name: "venues"
         file: "/_data/venues.yml"
         widget: list
         fields:  
