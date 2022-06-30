@@ -81,7 +81,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: "format"
                 widget: "string"
               - label: "Venue"
-                name: "venue"
+                name: "locations"
                 widget: "relation"
                 collection: "venues"
                 file: "venues"
