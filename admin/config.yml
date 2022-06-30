@@ -93,8 +93,8 @@ collections: # A list of collections the CMS should be able to edit
         file: "/_data/venues.yml"
         widget: list
         fields:  
-          - label: "Venues"
-            name: "venue"     
+          - label: "Locations"
+            name: "locations"     
             fields:
               - {label: "Venue", name: "venue", widget: "string"}
               - {label: "Address", name: "address", widget: "string"}
