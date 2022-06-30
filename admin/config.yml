@@ -85,6 +85,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     folder: "_data"
     files:
+      -
       file: "/_data/venues.yml"
       widget: list
       fields:       
