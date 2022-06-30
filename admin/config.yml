@@ -86,14 +86,13 @@ collections: # A list of collections the CMS should be able to edit
   - name: "venues"
     label: "Venues"
     create: true # Allow users to create new documents in this collection
-    folder: "_data"
     files:
       - label: "Venues"
         name: "venues"
         file: "/_data/venues.yml"
         fields:  
-          - label: "Locations"
-            name: "locations"    
+          - name: "locations"
+            label: "Locations"    
             widget: list 
             fields:
               - {label: "Venue", name: "venue", widget: "string"}
