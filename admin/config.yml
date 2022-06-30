@@ -82,7 +82,10 @@ collections: # A list of collections the CMS should be able to edit
                 widget: "string"
               - label: "Venue"
                 name: "venue"
-                widget: "string" 
+                widget: "relation"
+                collection: "venues"
+                file: "venues"
+                value_field: "venue"
   - name: "venues"
     label: "Venues"
     create: true # Allow users to create new documents in this collection
