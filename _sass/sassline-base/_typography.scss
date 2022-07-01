@@ -3,7 +3,7 @@
 
 // Setting root sizes and base styles.
 html {
-  @include rootsize;
+  // @include rootsize;
 
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -11,7 +11,7 @@ html {
 
 // Site-wide base styles.
 body {
-  @include fontsize(zeta, all);
+  // @include fontsize(zeta, all);
 
   font-family: unquote(map-get($bodytype, font-family));
   font-style: normal;

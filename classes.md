@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: classes
 title: About the yoga classes
 page_image: /assets/images/class-1000x668.jpg
 page_image_style: normal
