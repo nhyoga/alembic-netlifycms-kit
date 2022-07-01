@@ -40,8 +40,10 @@ paginate_path: blog/page:num
 navigation_header:
 - title: About
   url: /about/
-- title: the classes
+- title: classes
   url: /classes/
+- title: sessions
+  url: /session-times/
 - title: locations
   url: /locations/ 
 - title: Testimonials
