@@ -1,9 +1,10 @@
-heading: Yoga classes
-desc: Live and Interactive online classes via Zoom.
+heading: Yoga class locations
+desc: Find details of how to join in below
 locations:
   - venue: Shoreham Community Centre
     address: 2 Pond Rd Shoreham-by-Sea
     postcode: BN43 5WU
+    embedUrl: https://www.google.com/maps/embed/v1/place?key=AIzaSyAEIpgj38KyLFELm2bK9Y7krBkz1K-cMq8&q=place_id:ChIJIzHRWB2adUgRpP-JYZ0hEjg
     zoom: ""
   - venue: Zoom
     address: ""

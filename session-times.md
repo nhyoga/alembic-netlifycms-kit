@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sessions
 title: Session times
 subtitle: Shoreham yoga classes
 ---

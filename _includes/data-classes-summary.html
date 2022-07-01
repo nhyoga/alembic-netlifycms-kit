@@ -22,19 +22,20 @@
           <div class="row">
             <div class="col-12 col-md-6 offset-md-3 text-center px-0">
 
-              <ul class="list-unstyled text-center">
+              <ul class="list-unstyled text-center mx-auto">
                 {% for block in site.data.classtimes.classtime %}
-                <li class="text-lef border-botom pt-4 px-0 mx-0 ">
+                <li class="text-center border-botom pt-4 px-0 mx-0 ">
 
                   
                   <div class="d-flex justify-content-center ">
-                    <div class="d-inline mr-5">{{block.day}}</div>
+                    <div class="d-inline mr-5">{{block.day}}:</div>
                     <div class="d-inline  ">{{block.start}}-{{block.finish}}</div>
                   </div>
 
                 </li>
                 {% endfor %}
               </ul>
+              <a class="btn btn-sm btn-primary display-4" href="tel:07834070448">BOOK - 07834070448</a>
             </div>
           </div>
         </div>
