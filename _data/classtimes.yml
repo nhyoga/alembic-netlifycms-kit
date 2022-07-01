@@ -20,5 +20,12 @@ classtime:
     finish: 11.00am
     format: Zoom online
     info: Drop in
-    frequency: "" 
+    frequency: ""
     locations: Shoreham Community Centre
+  - day: Wednesday
+    start: 7.15am
+    finish: 8.15am
+    format: Online via Zoom
+    info: Drop in for first time class. After which Monthly payment only. For
+      further information please contact Nicola 07834070448
+    locations: Zoom
