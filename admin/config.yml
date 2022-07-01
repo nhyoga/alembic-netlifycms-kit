@@ -58,6 +58,9 @@ collections: # A list of collections the CMS should be able to edit
   - name: "classtimes"
     label: "Class times"
     create: true # Allow users to create new documents in this collection
+    fields: # 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "testimonial"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
     files:
       - label: "Class time"
         name: "classtimes"

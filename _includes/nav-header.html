@@ -13,7 +13,7 @@
         <a href="{{ url }}">{{ item.title }}</a>
       </li>
     {% endfor %}
-    <li class="item  item--nav"><a class="btn btn-sm btn-primary display-4" href="tel:07834070448">BOOK - 07834070448</a></li>
+    <li class="item  item--nav"><a class="btn btn-sm btn-primary display-4" href="tel:{{site.phone}}">BOOK - {{site.phone}}</a></li>
   </ul>
   <button class="button  button--nav" aria-label="Menu toggle">
     {% include icon.html id="nav" title="Menu" %}

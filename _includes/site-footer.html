@@ -1,3 +1,20 @@
+<section class="container">
+  <div class="row">
+    <div class="col-12">
+      <ul class="list-unstyled times">
+        {% for block in site.data.classtimes.classtime %}
+          <li>
+            
+              {{ block.day }} {{block.start}}-{{block.finish}}
+            
+            
+          </li>
+        {% endfor %}
+      </ul>
+      <p>{{site.email}}</p>
+    </div>
+  </div>
+</section>
 <footer class="footer">
   <div class="container">
     <div class="copyright  typeset">
