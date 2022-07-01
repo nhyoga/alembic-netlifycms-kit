@@ -84,6 +84,13 @@ collections: # A list of collections the CMS should be able to edit
                 widget: "select"
                 options: ["Live", "Online via Zoom"]
               - label: "Class info"
+                name: info
+                widget: "markdown"
+                required: false
+              - label: "Frequency"
+                name: "frequency"
+                widget: "markdown" 
+                required: false 
               - label: "Venue"
                 name: "locations"
                 widget: "relation"
