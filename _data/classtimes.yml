@@ -1,5 +1,5 @@
 heading: Yoga classes
-desc: Live and Interactive online classes via Zoom.
+desc: Most of these Yoga classes are now live with one drop in class on Zoom.
 classtime:
   - day: Tuesday
     start: 6.00pm
@@ -8,6 +8,13 @@ classtime:
     info: Drop in for first time class. After which monthly payment or 6 class card.
     frequency: ""
     locations: Shoreham Community Centre
+  - day: Wednesday
+    start: 7.15am
+    finish: 8.15am
+    format: Online via Zoom
+    info: Drop in for first time class. After which Monthly payment only. For
+      further information please contact Nicola 07834070448
+    locations: Zoom
   - day: Thursday
     start: 12.30pm
     finish: 1.30pm
@@ -22,10 +29,3 @@ classtime:
     info: Drop in
     frequency: ""
     locations: Shoreham Community Centre
-  - day: Wednesday
-    start: 7.15am
-    finish: 8.15am
-    format: Online via Zoom
-    info: Drop in for first time class. After which Monthly payment only. For
-      further information please contact Nicola 07834070448
-    locations: Zoom
