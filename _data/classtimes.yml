@@ -1,3 +1,5 @@
+heading: my heading
+desc: my description
 classtime:
   - day: Tuesday
     start: 6.00pm
