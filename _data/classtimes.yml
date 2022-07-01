@@ -25,7 +25,7 @@ classtime:
   - day: Saturday
     start: 10.00am
     finish: 11.00am
-    format: Zoom online
+    format: Live
     info: Drop in
     frequency: ""
     locations: Shoreham Community Centre
