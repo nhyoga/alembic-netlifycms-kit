@@ -3,7 +3,7 @@
   <div class="container py-5">
     <div class="inner-container" style="width: 100%;">
       <hr class="line" style="width: 25%;">
-      <div class="row">
+      <div class="row venues">
         <div class="col-12 text-center py-5 typeset">
           {% for block in site.data.venues.heading %}
           {% if block %}
@@ -17,41 +17,81 @@
           {% endif %}
 
           {% endfor %}
+
           <div class="row">
-            <div class="col-12 col-md-6 offset-md-3 text-center px-0">
+            <div class="col-12  text-center px-0">
 
-              <ul class="list-unstyled times">
-                {% for block in site.data.venues.locations %}
-                <li class="text-left border-botom pt-4 px-0 mx-0">
+              {% for block in site.data.venues.locations %}
+              <div class="row border-top pt-4 px-0 mx-0">
 
-                  <h3 class="border-top">Venue: {{block.venue}}</h3>
-                  <div class="d-flex mb-1">
-                    
-                    <div class="d-inline w-75 ">{{block.address}} {{block.postcode}}</div>
-                  </div>
-                  {% for class in site.data.classtimes.classtime %}
+                <div class="col-12 mb-4">
+                  <h3 class="">Venue: {{block.venue}}</h3>
+                </div>
 
-                  {% if block.venue == class.locations %}
+                <div class="col-12 col-md-8 offset-md-2 text-center">
 
-                  <div class="d-flex mb-1">
-                    <div class="d-inline w-25">{{class.day}}</div>
-                    <div class="d-inline w-75 ">{{class.start}}-{{class.finish}}</div>
+                  {% if block.venue != "Zoom" %}
+                  <h5>Address:</h5>
+                  <p>{{block.address}} {{block.postcode}}</p>
+                  {% endif %}
+
+                  {% assign mapurl = block.embedUrl %}
+
+                  {% if mapurl %}
+                  <div class="col-12 text-center google-map">
+                    <iframe frameborder="0" width="100%" height="375px" style="border:0" src="{{block.embedUrl}}"
+                      allowfullscreen=""></iframe>
                   </div>
                   {% endif %}
-                  {% endfor %}
 
+                  <h5 class="mb-0">Classes</h5>
             
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
 
-          <p>{{site.email}}</p>
-          <p>{{site.phone}}</p>
+
+                  <div class="row">
+                    <div class="col-12 col-md-6 offset-md-3 text-center px-0">
+                    
+                      <ul class="list-unstyled times">
+                        {% for class in site.data.classtimes.classtime %}
+
+                        {% if block.venue == class.locations %}
+                          <li class="text-left border-botom pt-4 px-0 mx-0">
+                            
+                              
+                            
+                              <div class="d-flex mb-1">
+                                  <div class="d-inline w-25">{{class.day}}</div>
+                                  <div class="d-inline w-75 ">{{class.start}}-{{class.finish}}</div>
+                              </div>
+                             
+                              <div class="d-flex mb-1">
+                                <div class="d-inline w-25">Info</div>
+                                <div class="d-inline w-75">{{class.info}}</div>
+                              </div>
+                          </li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              
+
+            </div>
+
+          </div>
+          {% endfor %}
         </div>
       </div>
-      <hr class="line" style="width: 25%;">
     </div>
+  </div>
+
+  <p>{{site.email}}</p>
+  <p>{{site.phone}}</p>
+  </div>
+  </div>
+  <hr class="line mb-5" style="width: 25%;">
+  </div>
   </div>
 </section>
