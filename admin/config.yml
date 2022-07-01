@@ -82,7 +82,7 @@ collections: # A list of collections the CMS should be able to edit
               - label: "Format"
                 name: "format"
                 widget: "select"
-                options: ["Face to face", "Online Zoom"]
+                options: ["Live", "Online via Zoom"]
               - label: "Venue"
                 name: "locations"
                 widget: "relation"
