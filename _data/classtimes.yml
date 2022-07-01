@@ -4,17 +4,18 @@ classtime:
   - day: Tuesday
     start: 6.00pm
     finish: 7.00pm
-    format: Face to face
-    venue: Sheangrila
+    format: Live
+    info: Drop in for first time class. After which monthly payment or 6 class card.
     locations: Shoreham Community Centre
   - day: Thursday
     start: 12.30pm
     finish: 1.30pm
-    format: Face to face
+    format: Live
+    info: Drop in
     locations: Shoreham Community Centre
   - day: Saturday
     start: 10.00am
     finish: 11.00am
-    format: Face to face
-    venue: Shoreham
+    format: Zoom online
+    info: Drop in 
     locations: Shoreham Community Centre

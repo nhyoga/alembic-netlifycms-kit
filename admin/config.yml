@@ -83,6 +83,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: "format"
                 widget: "select"
                 options: ["Live", "Online via Zoom"]
+              - label: "Class info"
               - label: "Venue"
                 name: "locations"
                 widget: "relation"
@@ -99,6 +100,8 @@ collections: # A list of collections the CMS should be able to edit
         name: "venues"
         file: "/_data/venues.yml"
         fields:  
+          - {label: "Heading", name: "heading", widget: "string", tagname: "h3"}
+          - {label: "Desc", name: "desc", widget: markdown}
           - name: "locations"
             label: "Locations"    
             widget: list 
