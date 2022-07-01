@@ -89,7 +89,7 @@ collections: # A list of collections the CMS should be able to edit
                 required: false
               - label: "Frequency"
                 name: "frequency"
-                widget: "markdown" 
+                widget: "string" 
                 required: false 
               - label: "Venue"
                 name: "locations"
