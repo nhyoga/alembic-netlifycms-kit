@@ -24,10 +24,10 @@ header li.item--current a{
   border-bottom: 1px solid rgb(0, 187, 255);
   
 }
-.container {
-  // width: 90%;
-  // max-width: 1200px;
-  // margin: 0 auto;
+.mbr-fullscreen {
+
+  background-position-y: unset!important;
+  margin-top: 0px!important;
 }
 .line {
   background-color: #cc2952;
