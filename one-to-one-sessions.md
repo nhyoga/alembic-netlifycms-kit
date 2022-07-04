@@ -1,7 +1,8 @@
 ---
 layout: page
 title: One to one sessions
-feature_image: /assets/images/image_6483441.jpg
+feature_image: ""
+page_image: /assets/images/one-one-sessions-image_6483441.jpg
 seotitle: One to one yoga classes recovery from injury and developing strength and health
 seodescription: If you are serious about recovery from injury and developing
   strength and health for your lifetime look no further than Nicola Harman. With
