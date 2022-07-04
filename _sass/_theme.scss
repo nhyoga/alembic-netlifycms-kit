@@ -40,6 +40,9 @@ header li.item--current a{
   height: 25rem;
   position: relative;
 }
+.nav a.btn{
+  border-radius:0.5rem
+}
 
 
 // Header, feature and footer
@@ -207,6 +210,10 @@ header li.item--current a{
   &--nav {
     overflow: hidden;
     margin-bottom: var(--listHeight, 0);
+    display:none;
+    @include breakpoint(break-1) {
+      display: block;
+    }
   }
   .item--post,
   .item--result,
@@ -217,7 +224,10 @@ header li.item--current a{
 
 .item {
   &--nav {
-    @include breakpoint(break-1) {
+    @include breakpoint(0) {
+      display: block;
+    }
+    @include breakpoint(990) {
       margin-left: .4rem;
       display: inline-block;
     }
@@ -371,18 +381,18 @@ button,
 }
 
 .button--nav {
-  @include breakpoint(break-1) {
+  @include breakpoint(990) {
     display: none;
   }
   background: none;
-  color: $linkColour;
+  color: white;
   margin-bottom: 0;
   min-height: 4rem;
   min-width: 4rem;
   &:hover,
   &:focus {
     box-shadow: none;
-    color: $hoverColour;
+    color: #ffffff;
   }
 }
 
@@ -394,7 +404,7 @@ textarea,
 select {
   &:focus,
   &:hover:focus {
-    outline: solid .12rem $focusColour;
+    outline: none; //solid .12rem $focusColour;
     outline-offset: -.12rem;
   }
 }

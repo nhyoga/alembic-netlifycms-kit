@@ -46,7 +46,7 @@ navigation_header:
   url: /session-times/
 - title: locations
   url: /locations/ 
-- title: Testimonials
+- title: testimonials
   url: /testimonials/  
 
 # Footer nav
