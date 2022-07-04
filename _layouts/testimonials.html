@@ -6,23 +6,7 @@ layout: default
 
 <main class="main  container">
 
-  <div class="row">
-
-    <article class="article  article--page  typeset">
-      hello
-
-      {% if paginator.posts %}
-        {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-        <h1>{{ collectiondata.title }}</h1>
-        {{ collectiondata.description | markdownify }}
-
-      {% else %}
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-        
-      {% endif %}
-
-    </article>
+  <div class="row">    
 
     {% include testimonial-list.html %}
 

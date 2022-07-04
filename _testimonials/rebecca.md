@@ -2,7 +2,6 @@
 title: Rebecca Tanya-Mead
 categories:
   - General
-feature_image: https://picsum.photos/2560/600?image=872
 page_image: /assets/images/rebecca-tanya-mead-head-214x216.jpg
 seotitle: Testimonials - Rebecca | Nicola Harman Yoga
 seodescription: "Niki’s taught me to really listen to my body, and how to

@@ -2,7 +2,6 @@
 title: Sophia
 categories:
   - General
-feature_image: https://picsum.photos/2560/600?image=872
 page_image: /assets/images/sophia-192x194.jpg
 seotitle: Testimonials - Sophia | Nicola Harman Yoga
 seodescription: "Since starting my yoga practice with Nicola Harman in Shoreham
