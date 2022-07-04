@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: testimonials
 collectionpage: testimonials
 title: Testimonials
 ---

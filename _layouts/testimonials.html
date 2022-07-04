@@ -6,9 +6,10 @@ layout: default
 
 <main class="main  container">
 
-  <div class="content">
+  <div class="row">
 
     <article class="article  article--page  typeset">
+      hello
 
       {% if paginator.posts %}
         {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
@@ -23,7 +24,7 @@ layout: default
 
     </article>
 
-    {% include post-list.html %}
+    {% include testimonial-list.html %}
 
   </div>
 
