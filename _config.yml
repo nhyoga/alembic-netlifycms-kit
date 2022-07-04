@@ -24,8 +24,6 @@ plugins:
 # Site settings
 url: 'https://www.nicolaharmanyoga.co.uk'
 baseurl: ''
-title: 'Yoga classes, and 1-1 sessions in Brighton and East Sussex | Nicola Harman Yoga'
-description: 'Learn Yoga with Nicola Harman. Fun and focused classes that build from the basics to advanced and your  own pace in local classes in Brighton East Sussex'
 permalink: pretty
 logo: '/assets/images/logo-sitting-96x97.png'
 google_analytics: true
