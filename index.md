@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Nicola Harman Yoga
 subtitle: simple, healthy, focused
 feature_image: /assets/images/home-cropped01-2000x1275.jpg
