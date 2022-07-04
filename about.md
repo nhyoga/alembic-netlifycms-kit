@@ -7,7 +7,7 @@ seodescription: If you are serious about recovery from injury and developing
   20 years of experience you too can benefit first hand in healing and
   wellbeing. Take a class in Shoreham and find out
 ---
-Innn 2001 Nicola was introduced to yoga and from her first class she knew it was what had been missing from her life. 
+In 2001 Nicola was introduced to yoga and from her first class she knew it was what had been missing from her life. 
 
 Practicing regularly she soon began to see the benefits not just physically but emotional mentally and spiritually. Yoga had such a profound effect on her in 2004 Nicola gave up her business to go abroad and train as a yoga teacher.
 
