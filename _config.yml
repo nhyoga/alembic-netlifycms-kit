@@ -40,6 +40,8 @@ navigation_header:
   url: /about/
 - title: classes
   url: /classes/
+- title: 1-2-1
+  url: /one-to-one-sessions/  
 - title: sessions
   url: /session-times/
 - title: locations
