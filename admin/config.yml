@@ -4,7 +4,6 @@ backend:
 
 # when using the default proxy server port
 # local_backend: true
-
 media_folder: "assets/images" # Folder where user uploaded files should go
 
 collections: # A list of collections the CMS should be able to edit
