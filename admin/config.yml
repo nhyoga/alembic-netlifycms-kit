@@ -58,7 +58,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "SEO title", name: "seotitle", widget: "string", required: false}
       - {label: "SEO description", name: "seodescription", widget: "text", required: false}
   - name: "classtimes"
-    label: "Class times and workshops"
+    label: "Class times"
     create: true # Allow users to create new documents in this collection
     files:
       - label: "Class time"
@@ -100,7 +100,17 @@ collections: # A list of collections the CMS should be able to edit
                 file: "venues"
                 search_fields: ["locations.*.venue"] 
                 display_fields: ["locations.*.venue"] 
-                value_field: "locations.*.venue"
+                value_field: "locations.*.venue" 
+  - name: "workshops"
+    label: "Workshops"
+    create: true # Allow users to create new documents in this collection
+    files:
+      - label: "Workshop time"
+        name: "workshops"
+        file: "/_data/workshops.yml"
+        fields:
+          - {label: "Heading", name: "heading", widget: "string", tagname: "h3"}
+          - {label: "Desc", name: "desc", widget: markdown}
           - name: workshop
             label: time
             widget: list 
@@ -134,7 +144,8 @@ collections: # A list of collections the CMS should be able to edit
                 file: "venues"
                 search_fields: ["locations.*.venue"] 
                 display_fields: ["locations.*.venue"] 
-                value_field: "locations.*.venue"          
+                value_field: "locations.*.venue"                 
+
   - name: "venues"
     label: "Venues"
     create: true # Allow users to create new documents in this collection
