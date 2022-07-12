@@ -1,4 +1,9 @@
 heading: Yoga workshops
 desc: Special yoga workshops are run throughout the year. Watch this space for
   upcoming ones or contact Nicola directly for yoga workshop info.
-workshop: []
+workshop:
+  - day: July 12, 2022 12:22 PM
+    start: "-"
+    finish: "-"
+    locations: Shoreham Community Centre
+    format: Live
