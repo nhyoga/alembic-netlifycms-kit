@@ -112,6 +112,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "workshops"
         file: "/_data/workshops.yml"
         fields:
+          - {label: "Show workshops", name: "display", widget: "boolean", default: false}
           - {label: "Heading", name: "heading", widget: "string", tagname: "h3"}
           - {label: "Desc", name: "desc", widget: markdown}
           - name: workshop
