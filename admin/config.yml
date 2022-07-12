@@ -118,6 +118,9 @@ collections: # A list of collections the CMS should be able to edit
             label: time
             widget: list 
             fields:
+              - label: "Workshop title"
+                name: "title"
+                widget: "string"
               - label: "Day"
                 name: "day"
                 widget: "datetime"
