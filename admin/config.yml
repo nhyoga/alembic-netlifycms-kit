@@ -57,6 +57,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "SEO title", name: "seotitle", widget: "string", required: false}
       - {label: "SEO description", name: "seodescription", widget: "text", required: false}
+  
+  #classes    
   - name: "classtimes"
     label: "Class times"
     create: true # Allow users to create new documents in this collection
@@ -101,6 +103,7 @@ collections: # A list of collections the CMS should be able to edit
                 search_fields: ["locations.*.venue"] 
                 display_fields: ["locations.*.venue"] 
                 value_field: "locations.*.venue" 
+  
   - name: "workshops"
     label: "Workshops"
     create: true # Allow users to create new documents in this collection
@@ -133,10 +136,6 @@ collections: # A list of collections the CMS should be able to edit
                 name: "info"
                 widget: "markdown"
                 required: false
-              - label: "Frequency"
-                name: "frequency"
-                widget: "string" 
-                required: false 
               - label: "Venue"
                 name: "locations"
                 widget: "relation"
