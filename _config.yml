@@ -1,3 +1,5 @@
+source              : .
+destination         : ./_site
 # Set theme
 theme: alembic-jekyll-theme
 
