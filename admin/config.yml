@@ -101,6 +101,40 @@ collections: # A list of collections the CMS should be able to edit
                 search_fields: ["locations.*.venue"] 
                 display_fields: ["locations.*.venue"] 
                 value_field: "locations.*.venue"
+          - name: workshop
+            label: time
+            widget: list 
+            fields:       
+              - label: "Day"
+                name: "day"
+                widget: "select"
+                options: ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+              - label: "Start time"
+                name: "start"
+                widget: "string"
+              - label: "Finish"
+                name: "finish"
+                widget: "string"
+              - label: "Format"
+                name: "format"
+                widget: "select"
+                options: ["Live", "Online via Zoom"]
+              - label: "Class info"
+                name: "info"
+                widget: "markdown"
+                required: false
+              - label: "Frequency"
+                name: "frequency"
+                widget: "string" 
+                required: false 
+              - label: "Venue"
+                name: "locations"
+                widget: "relation"
+                collection: "venues"
+                file: "venues"
+                search_fields: ["locations.*.venue"] 
+                display_fields: ["locations.*.venue"] 
+                value_field: "locations.*.venue"          
   - name: "venues"
     label: "Venues"
     create: true # Allow users to create new documents in this collection
