@@ -21,10 +21,8 @@
           {% endfor %}
         </div>
       </div>
-    {% unless site.data.workshops.workshop | first > 0 %}
-        SHow mell
-    {% endunless %}
-      {% if site.data.workshops %}
+
+      {% if site.data.workshops.display %}
       <div class="row">
         <div class="col-12 col-md-6 offset-md-3 text-center px-0 typeset">
 
