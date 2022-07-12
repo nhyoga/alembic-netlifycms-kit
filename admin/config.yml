@@ -123,19 +123,22 @@ collections: # A list of collections the CMS should be able to edit
                 widget: "datetime"
                 default: ""
                 date_format: "DD.MM.YYYY" # e.g. 24.12.2021
-                time_format: "HH:mm a p" # e.g. 21:07
+                time_format: "HH:mm" # e.g. 21:07
                 format: "LLL"
                 picker_utc: false              
               - label: "Start time"
                 name: "start"
                 widget: "string"
+                required: false
               - label: "Finish"
                 name: "finish"
                 widget: "string"
+                required: false
               - label: "Format"
                 name: "format"
                 widget: "select"
                 options: ["Live", "Online via Zoom"]
+                required: false
               - label: "Class info"
                 name: "info"
                 widget: "markdown"
@@ -143,6 +146,7 @@ collections: # A list of collections the CMS should be able to edit
               - label: "Venue"
                 name: "locations"
                 widget: "relation"
+                required: false
                 collection: "venues"
                 file: "venues"
                 search_fields: ["locations.*.venue"] 
