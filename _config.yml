@@ -5,10 +5,17 @@ theme: alembic-jekyll-theme
 
 # File excludes
 exclude:
+- netlify.toml
 - README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
 - Gemfile
 - Gemfile.lock
-- netlify.toml
+- alembic-jekyll-theme.gemspec
+- .jekyll-cache
 
 # Set plugins
 plugins:
