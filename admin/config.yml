@@ -115,7 +115,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Heading", name: "heading", widget: "string", tagname: "h3"}
           - {label: "Desc", name: "desc", widget: markdown}
           - name: workshop
-            label: time
+            label: Workshop
             widget: list 
             fields:
               - label: "Workshop title"
