@@ -58,7 +58,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "SEO title", name: "seotitle", widget: "string", required: false}
       - {label: "SEO description", name: "seodescription", widget: "text", required: false}
   - name: "classtimes"
-    label: "Class times"
+    label: "Class times and workshops"
     create: true # Allow users to create new documents in this collection
     files:
       - label: "Class time"
